@@ -1,0 +1,9 @@
+tab = 50
+obj = 10
+value = 30
+
+puts ( "  Table of Contents   ".center(tab))
+puts " "
+puts ("Chapter 1:" + "Numbers".rjust(obj) + "page 1".rjust(value) )
+puts ("Chapter 2:" + "Letters".rjust(obj) + "page 72".rjust(value + 1))
+puts ("Chapter 3:" + "Variables".rjust(obj + 2) + "page 118".rjust(value))
